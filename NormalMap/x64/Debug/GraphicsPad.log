@@ -1,0 +1,11 @@
+﻿Build started 9/4/2015 3:38:52 PM.
+     1>Project "C:\GraphicsPad\GraphicsPad\GraphicsPad.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GraphicsPad\x64\Debug\GraphicsPad.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\GraphicsPad\GraphicsPad\..\Middleware\Qt\lib QtCored4.lib QtGuid4.lib QtOpenGld4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\GraphicsPad\x64\Debug\GraphicsPad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GraphicsPad\x64\Debug\GraphicsPad.lib" /MACHINE:X64 x64\Debug\Mainer.obj
+         x64\Debug\MeOpenGl.obj
+     1>QtGuid4.lib(QtGuid4.dll) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+     1>Done Building Project "C:\GraphicsPad\GraphicsPad\GraphicsPad.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

@@ -1,0 +1,26 @@
+﻿Build started 12/6/2015 10:17:12 PM.
+     1>Project "E:\NormalMap\NormalMap\NormalMap.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of Mainer.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Mainer.cpp, Primitives\Mainer.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IE:\NormalMap\NormalMap\ /IE:\NormalMap\NormalMap\..\MiddleWare\Qt\include /IE:\NormalMap\NormalMap\..\MiddleWare\glew\include /IE:\NormalMap\NormalMap\..\MiddleWare\glm /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\Tmp\\" /Fd"Debug\Tmp\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MeGlWindow.cpp
+         MeGlWindow.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\NormalMap\Debug\NormalMap.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\NormalMap\NormalMap\..\Middleware\Qt\lib /LIBPATH:E:\NormalMap\NormalMap\..\Middleware\glew\lib Opengl32.lib glew32d.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\NormalMap\Debug\NormalMap.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\NormalMap\Debug\NormalMap.lib" /MACHINE:X86 Debug\Tmp\Camera.obj
+         Debug\Tmp\Mainer.obj
+         Debug\Tmp\MeGlWindow.obj
+         Debug\Tmp\MeGlWindow_moc.obj
+         Debug\Tmp\MeWidget.obj
+         Debug\Tmp\MeWidget_moc.obj
+         Debug\Tmp\DebugGuiManager.obj
+         Debug\Tmp\DebugGuiManager_moc.obj
+         Debug\Tmp\DebugSlider.obj
+         Debug\Tmp\DebugSlider_moc.obj
+         Debug\Tmp\Mainer.obj
+         Debug\Tmp\ShapeGenerator.obj
+         NormalMap.vcxproj -> E:\NormalMap\Debug\NormalMap.exe
+     1>Done Building Project "E:\NormalMap\NormalMap\NormalMap.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.17
